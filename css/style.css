@@ -1,19 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fjord+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Timmana&family=Varela+Round&display=swap');
 
 body{
-    background-color: crimson;
+    background: linear-gradient(90deg,#5e0202, #df1604, #5e0202);
 }
 
 .story {
-    width: 340px;
-    height: 600px;
-    background-image: url(/img/papel.svg);
+    width: 810px;
+    height: 730px;
+    margin-top: -70px;
+    margin-left: 180px;
+    background-image: url(/img/paper.png);
 }
 
-.story p{
-    width: 320px;
+.text p{
+    position: absolute;
+    top: 150px;
+    left: 340px;
+    width: 550px;
     height: 600px;
-    font-size: 11px;
+    font-size: 13px;
     font-family: "Timmana", sans-serif;
 }
 
@@ -23,4 +28,13 @@ body{
 
 .audio-controls {
     margin-top: 20px;
+    margin-left: 450px;
+}
+
+img{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 480px;
+    left: 810px;
 }
